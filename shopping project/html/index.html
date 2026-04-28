@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FashionHub</title>
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+<h1>FashionHub</h1>
+<nav>
+<a onclick="showSection('home')">Home</a>
+<a onclick="showSection('library')">My Collection</a>
+</nav>
+</header>
+
+<div class="container" id="homeSection">
+  <h2>Dresses & Pants</h2>
+  <div class="grid" id="homeGrid"></div>
+</div>
+
+<div class="container" id="librarySection" style="display:none;">
+  <h2>My Collection</h2>
+  <div class="grid" id="libraryGrid"></div>
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
